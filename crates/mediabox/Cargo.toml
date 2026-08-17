@@ -1,0 +1,17 @@
+[package]
+name = "mediabox"
+version = "0.1.0"
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+tokio.workspace = true
+anyhow.workspace = true
+bytes.workspace = true
+url.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+mux = { path = "..//mux" }
+rtp = { path = "../rtp" }
+rtsp_client = { path = "../rtsp_client" }
